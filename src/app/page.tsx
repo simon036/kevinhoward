@@ -1,24 +1,20 @@
 import Header from '@/components/sections/header';
 import Navigation from '@/components/sections/navigation';
-import HeroCarousel from '@/components/sections/hero-carousel';
-import Introduction from '@/components/sections/introduction';
-import ServicesGrid from '@/components/sections/services-grid';
-import Announcement from '@/components/sections/announcement';
+import ModernHero from '@/components/sections/modern-hero';
+import ModernServices from '@/components/sections/modern-services';
+import ModernTestimonials from '@/components/sections/modern-testimonials';
+import ModernCTA from '@/components/sections/modern-cta';
 import Footer from '@/components/sections/footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-primary-background">
+    <div className="min-h-screen">
       <Header />
       <Navigation />
-      <HeroCarousel />
-      <main className="max-w-[1170px] mx-auto px-[15px] py-[30px]">
-        <div className="bg-white p-5 rounded-none shadow-none">
-          <Introduction />
-          <ServicesGrid />
-          <Announcement />
-        </div>
-      </main>
+      <ModernHero />
+      <ModernServices />
+      <ModernTestimonials />
+      <ModernCTA />
       <Footer />
     </div>
   );

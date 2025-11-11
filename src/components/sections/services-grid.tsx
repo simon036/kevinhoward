@@ -1,4 +1,5 @@
 import { BarChart2, ListChecks, CreditCard, Users } from 'lucide-react';
+import Link from 'next/link';
 import React, { ElementType } from 'react';
 
 interface Service {
@@ -13,9 +14,9 @@ const services: Service[] = [
     title: "Check Tax Refund",
     description: (
       <>
-        <a href="check-tax-refund.html" className="text-link hover:text-link-hover hover:underline">
+        <Link href="/check-tax-refund" className="text-link hover:text-link-hover hover:underline">
           Click here
-        </a>
+        </Link>
         {' '}to quickly find the status of your tax refund...
       </>
     ),
@@ -26,9 +27,9 @@ const services: Service[] = [
     description: (
       <>
         Our convenient Tax Center provides an array of tax information all in one place.{' '}
-        <a href="tax-center.html" className="text-link hover:text-link-hover hover:underline">
+        <Link href="/tax-center" className="text-link hover:text-link-hover hover:underline">
           Click here
-        </a>
+        </Link>
         {' '}for more information...
       </>
     ),
@@ -39,9 +40,9 @@ const services: Service[] = [
     description: (
       <>
         Our convenient Financial Calculators can help you plan for your future.{' '}
-        <a href="financial-calculators.html" className="text-link hover:text-link-hover hover:underline">
+        <Link href="/financial-calculators" className="text-link hover:text-link-hover hover:underline">
           Click here
-        </a>
+        </Link>
         {' '}for more information...
       </>
     ),
@@ -51,9 +52,9 @@ const services: Service[] = [
     title: "Paycheck Calculators",
     description: (
       <>
-        <a href="paycheck-calculators.html" className="text-link hover:text-link-hover hover:underline">
+        <Link href="/paycheck-calculators" className="text-link hover:text-link-hover hover:underline">
           Click here
-        </a>
+        </Link>
         {' '}to use our handy Paycheck Calculators...
       </>
     ),
