@@ -183,10 +183,8 @@ export default function Navigation() {
                             />
                         </div>
                         <Link
-                            href="https://login.accountantsoffice.com/login?firmCode=KTHCPAPFSPA"
+                            href="/client-portal"
                             className="inline-flex items-center px-4 py-2 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition-colors duration-200 shadow-sm hover:shadow-md"
-                            target="_blank"
-                            rel="noopener noreferrer"
                         >
                             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
